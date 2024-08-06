@@ -7,7 +7,7 @@ function MaxCalculation() {
       MaxCurrent = Math.max(array[i], MaxCurrent + array[i]);
       MaxGlobal = Math.max(MaxGlobal, MaxCurrent);
     }
-  
+  return (MaxGlobal)
     console.log(MaxGlobal);
   }
   
